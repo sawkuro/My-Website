@@ -1,13 +1,13 @@
 body {
     margin: 0;
-    background-color: #001;
+    background-color: #0e0e0e;
     font-family: Arial, sans-serif;
 }
 
 /* Navbar */
 .topnav {
     overflow: hidden;
-    background-color: #001;
+    background-color: #0e0e0e;
     text-align: center;
     position: sticky;
     top: 0;
@@ -37,9 +37,9 @@ body {
 /* Hero Section */
 .hero {
     border-radius: 5px;
-    background-color: #001;
+    background-color: #0e0e0e;
     padding: 20px 0;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .hero h1 {
@@ -56,9 +56,20 @@ body {
     border-radius: 5px;
     background-size: cover;
     background-position: center;
-    max-width: 740px;
+    max-width: 750px;
     height: auto;
-    display: block;
+    display: block ;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.portrait-img {
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 225px;
+    display: block ;
     margin: 0 auto;
     padding-bottom: 10px;
 }
@@ -82,7 +93,7 @@ body {
 /* Intro Section */
 .intro-section {
     border-radius: 5px;
-    background-color: #1a1a1a;
+    background-color: #171717;
     padding: 25px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -146,7 +157,7 @@ li::marker {
 
 /* Cards */
 .card {
-    background-color: #1a1a1a;
+    background-color: #2f2f2f;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.131);
     margin-bottom: 20px;
