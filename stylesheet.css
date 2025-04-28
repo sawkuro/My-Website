@@ -56,8 +56,8 @@ body {
     border-radius: 5px;
     background-size: cover;
     background-position: center;
-    max-width: 750px;
-    height: auto;
+    width: auto;
+    max-height: 500px;
     display: block ;
     margin: 0 auto;
     padding-bottom: 10px;
@@ -68,7 +68,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 300px;
-    width: 225px;
+    width: auto;
     display: block ;
     margin: 0 auto;
     padding-bottom: 10px;
