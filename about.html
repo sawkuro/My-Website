@@ -1,97 +1,129 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Kacy Souvanna</title>
+<html lang="en">    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="About Kacy Souvanna - Computer Science student, AFROTC cadet">
+    <meta name="keywords" content="Kacy Souvanna, about">
+    <title>Kacy Souvanna - About</title>
 
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-      <!-- Custom CSS -->
-      <link rel="stylesheet" href="stylesheet.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="stylesheet.css">
 
-      <!-- Custom Animation CSS -->
-      <style>
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
-         @keyframes fadeIn {
-            0% {
-               opacity: 0;
-            }
-            100% {
-               opacity: 1;
-            }
-         }
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="topnav fade-in">
+        <a href="index.html" aria-label="Home page">Home</a>
+        <a class="active" href="about.html" aria-label="About page">About</a>
+        <a href="personal-contact.html" aria-label="Contact page">Contact</a>
+        <a href="#personal" aria-label="Images page">Images</a>
+    </nav>
 
-         .jumbotron.animated {
-            animation: fadeIn 1.5s ease forwards;
-         }
+    <!-- Hero Section -->
+    <div class="hero text-center fade-in">
+        <h2>About Me</h2>
+    </div>
 
-         .topnav.animated {
-            animation: fadeIn 1.5s ease forwards;
-         }
-
-         .image-container.animated {
-            opacity: 0; /* Initially set opacity to 0 */
-         }
-
-         .container.animated {
-            opacity: 0; /* Initially set opacity to 0 */
-         }
-      </style>
-
-   </head>
-   <body style="background-color: black";>
-      <br>
-      <br>
-
-      <!-- Navbar -->
-      <div class="topnav animated dropdown">
-         <a href="index.html">Home</a>
-         <a class="active" href="about.html">About</a>
-         <a href="#contact">Contact</a>
-         <a href="#personal">Images</a>
-      </div>
-
-      <!-- Page Content -->
-      <div><div class="jumbotron main text-center animated"><h1 style="color: white">Who is... Kacy?</h1></div></div>
-      <!--Big Container for Fadez-->
-      <div class="container animated">
-         <div class="image-container text-center animated">
-            <hr>
-
-         </div>
-         <!-- Your remaining page content goes here -->
-         <div class="container"  style="width: 75%">
-            <div class="row">
-               <div class="jumbotron" style="background-color: rgb(32, 31, 31); padding-bottom: 50px;"><h3>Hi</h3></div>
-                <h2>hi</h2>
-                <h4></h4>   
+    <!-- Main Content -->
+        <figure class="image-container text-center fade-in">
+            <img src="https://freethepeople.org/wp-content/uploads/2017/09/bill_evans_fma.jpg" alt="About Me main img" class="mainimg">
+            <figcaption class="figure-caption">Bill Evans, one of my favorite musicians.</figcaption>
+        </figure>
+        <div class="container fade-in">
+            <div class="content-section text-center">
+                <hr>
+                <section class="intro-section">
+                    <p style="text-align: left;">
+                        Hi, my name is Kacy. I am a computer science student, with interests in cybersecurity and networks. 
+                        Combined with AFROTC, I'm building a strong foundation in technical work, problem solving, and logic, 
+                        along with disciplined living and leadership/followership. 
+                        My foundation is in constant improvement and self-reflection — 1% better everyday is my life.</p>
+                </section>
+                <hr>
+        
+                <section class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body text-start">
+                                <h5 class="card-title">Hobbies</h5>
+                                <ul class="card-text">
+                                    <li>Guitar & Music</li>
+                                    <li>Gaming</li>
+                                    <li>Card Magic</li>
+                                    <li>Poker</li>
+                                    <li>Journaling</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body text-start">
+                                <h5 class="card-title">Goals</h5>
+                                <ul class="card-text">
+                                    <li>1.5 mile run / 12 minutes</li>
+                                    <li>Programming 30 mins everyday</li>
+                                    <li>Build up to 145 lbs</li>
+                                    <li>Sleep 7 hours minimum/day</li>  
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body text-start">
+                                <h5 class="card-title">Floating Ideas</h5>
+                                <ul class="card-text">
+                                    <li>Cyber labbing and CTF</li>
+                                    <li>Full linux device</li>
+                                    <li>Neovim</li>
+                                    <li>Note-taking Systems</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-         </div>
-      </div>
-      <!-- Footer -->
-      <footer>
-         <div class="">
-         </div>
-      </footer>
+        </div>
 
-      <!-- Bootstrap JS -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Footer -->
+    <footer class="text-center fade-in">
+        <div class="contact-icons">
+            <a href="https://github.com/sawkuro" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github social-icon"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/YourLinkedIn" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin social-icon"></i>
+            </a>
+            <a href="https://www.instagram.com/kacysouvanna" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram social-icon"></i>
+            </a>
+        </div>
+        <p>© 2025 Kacy Souvanna</p>
+    </footer>
 
-      <!-- Custom JavaScript -->
-      <script>
-         document.addEventListener('DOMContentLoaded', function () {
-            // Add event listener for animation end on jumbotron
-            document.querySelector('.jumbotron.animated').addEventListener('animationend', function () {
-               // After jumbotron animation ends, add fade-in animation to image container
-               document.querySelector('.image-container.animated').style.animation = 'fadeIn 1s ease forwards';
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-               // After image container fades in, add fade-in animation to the rest of the page content
-               document.querySelector('.container.animated').style.animation = 'fadeIn 1s ease forwards';
+    <!-- Custom JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hero = document.querySelector('.hero.animated');
+            const container = document.querySelector('.container.animated');
+
+            hero.addEventListener('animationend', () => {
+                container.style.animation = 'fadeIn 1s ease forwards';
             });
-         });
-      </script>
-   </body>
+        });
+    </script>
+</body>
 </html>
